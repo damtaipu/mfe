@@ -11,16 +11,20 @@ login-wks
 
 ##### COMANDO PARA CRIAR O MFE EM ANGULAR
 
-- 1º GERA O WORKSPACE VAZIO para o projeto root ou remoto:
+1º GERA O WORKSPACE VAZIO para o projeto root ou remoto:
+
 `ng new name-workspace --create-application false`
 
-- 2º GERAR UMA NOVA APLICAÇÃO
-`ng generate application name-app
-`
-- 3º INSTALAR O MODULE FEDERATION
+2º GERAR UMA NOVA APLICAÇÃO
+
+`ng generate application name-app`
+
+3º INSTALAR O MODULE FEDERATION
+
 `npm install @angular-architects/module-federation`
 
-- 4º CONFIGURAR O MODULE FEDERATION NA APLICAÇÃO
+4º CONFIGURAR O MODULE FEDERATION NA APLICAÇÃO
+
 `ng add @angular-architects/module-federation --project name-app --port 8000`
 
 
